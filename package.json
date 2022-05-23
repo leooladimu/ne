@@ -4,13 +4,22 @@
   "homepage": "https://leooladimu.github.io/ne/",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.2.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "anime": "^0.1.2",
+    "animejs": "^3.2.1",
+    "bootstrap": "^5.1.3",
+    "flow-bin": "^0.178.1",
+    "hover.css": "^2.3.2",
     "kill-port": "^2.0.0",
     "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -18,6 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "kill-it": "npx kill-port 3000",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
