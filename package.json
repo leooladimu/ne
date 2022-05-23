@@ -1,7 +1,7 @@
 {
   "name": "ex",
   "version": "0.1.0",
-  "homepage": "https://leooladimu.github.io/ne/",
+  "homepage": "https://leooladimu.github.io/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.5",
